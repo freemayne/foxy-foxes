@@ -27,6 +27,57 @@ body > header nav li a {
     color: #f7f7f7;
     text-decoration: none;
 }
-body > header nav li a:hover{
-    color: rgba(235, 139, 6, 1);
+    body > header nav li a:hover{
+        color: rgba(235, 139, 6, 1);
+    }      
+    
+    body> section{
+        padding-top: 50px;
+        text-align: justify;
+    }
+ h1{
+     font-size: 24px;
+ }
+
+ h2{
+     font-size: 18px;
+ }
+ #home article {
+     width: 85%;
+     float: left;
+ }
+ #home aside {
+     width: 10%;
+     float: right;
+     padding: 0px 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+    background-color: #2a2a2a;
+    color: #f7f7f7;
+ }
+ #home article img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 15px;
+ }
+#images {
+    clear: both;
+}
+#images article{
+    text-align: center;
+}
+#images img{
+    max-width: 70%;
+}
+#contact {
+    margin: auto;
+    width: 205px;
+}
+#contact input[type='email'], #contact textarea{
+    width: 200px;
+}
+#about{
+    text-align: center;
+    
 }
