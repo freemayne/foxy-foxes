@@ -4,3 +4,29 @@ body{
     
     font-family: 'Open Sans', sans-serif;
 }
+body > header{
+    background-color: #808080;
+    width: 100%;
+    padding: 5px;
+    top: 0;
+    position: fixed;
+}
+body> header img{
+    height: 50px;
+}
+body>header nav{
+float: right;
+margin-right: 20px;
+}
+body header nav li {
+    float: left;
+    margin-right: 10px;
+    list-style: none;
+}
+body > header nav li a {
+    color: #f7f7f7;
+    text-decoration: none;
+}
+body > header nav li a:hover{
+    color: rgba(235, 139, 6, 1);
+}
